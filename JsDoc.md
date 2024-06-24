@@ -1,14 +1,24 @@
 # JsDoc
 
+## js的类型检查
+
+- "编写时"
+  - typescript
+  - js Doc
+- 编译时
+  - typescript
+- 运行时
+  - joi(nodejs)
+
 ## Outline
 
 ### 介绍
 
-   #### 什么是jsDoc
+#### 什么是jsDoc
 
       - jsDoc是一种用来给JavaScript代码添加注释的工具，通过使用一些特定的语法和标签，程序员可以在代码中添加说明文档，这些文档可以被jsDoc解析并生成API文档。这对于团队合作以及后期代码维护非常有用，因为它可以清楚描述函数的用途，参数类型，返回值等信息
 
-   #### jsDoc的作用和优点
+#### jsDoc的作用和优点
 
       - jsDoc的主要作用是自动从源码中提取注释，然后生成API文档。它具有以下主要优点：
          1. 方便阅读和理解代码：通过jsDoc，开发人员可以在代码中添加功能说明、参数类型、返回类型和其他重要信息。这个特性使得代码更具有可读性和可理解性，对于团队合作和后期维护都十分重要。
@@ -19,28 +29,26 @@
 
 ### jsDoc的安装和使用
 
-   #### 安装方法
+#### 安装方法
 
 ### jsDoc的基本语法和标签
 
-   #### 常见jsDoc标签及其使用方法
+#### 常见jsDoc标签及其使用方法
 
 [Use JSDoc: Index](https://jsdoc.app/)
 
-   [Use JSDoc: Index](https://jsdoc.app/)
+- @typedef
+- @property
+- @type
+- @param
+- @returns
+- @module
 
-   - @typedef
-   - @property
-   - @type
-   - @param
-   - @returns
-   - @module
-
-   #### 使用.d.ts编写类型
+#### 使用.d.ts编写类型
 
 ### jsDoc配置和使用
 
-   #### demo
+#### demo
 
       - description    -  `demos.name`
       - variables   -  `demos.age, friends, identity`
@@ -53,9 +61,9 @@
 
 ### jsDoc在实际项目中的应用
 
-   #### 如何在项目中设置和使用jsDoc
+#### 如何在项目中设置和使用jsDoc
 
-   #### jsDoc在项目中的运用实例
+#### jsDoc在项目中的运用实例
 
       1. 给现有代码注释, 梳理业务逻辑, 便于后续维护
       2. 为网络请求类的function编写注释
@@ -68,14 +76,14 @@
 
 #### vscode插件
 
-   - Paste JSON as JSDoc
-   - JSDoc Generator
+- Paste JSON as JSDoc
+- JSDoc Generator
 
 ### jsDoc的高级应用
 
-   #### 自定义标签的创建和应用
+#### 自定义标签的创建和应用
 
-   #### 如何通过扩展jsDoc来满足特定的项目需求
+#### 如何通过扩展jsDoc来满足特定的项目需求
 
 ### JsDoc vs TS
 
@@ -97,7 +105,6 @@
 
 ### 小结
 
-   #### jsDoc的重要性和必要性
+#### jsDoc的重要性和必要性
 
-   #### 对jsDoc的应用和理解进行总结
-
+#### 对jsDoc的应用和理解进行总结
