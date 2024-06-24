@@ -1,0 +1,15 @@
+{
+  "err_no": 0,
+  "err_msg": "success",
+  "data": {
+      "user_id": "3051900006302696",
+      "is_select_annual": false,
+      "status": 2,
+      "prize_icon": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c5dc4cf6fe0a42dbbc6fe06986476790~tplv-k3u1fbpfcp-zoom-1.image",
+      "prize_title": "",
+      "banner": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/307677e4ef0e441891731b3dc47db9f4~tplv-k3u1fbpfcp-zoom-1.image",
+      "url": "https://activity.juejin.cn/rank/2023/writer/3051900006302696",
+      "is_show": 0,
+      "vote_guide_sign": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ef70ccf6aa26457aa61d495de8b70707~tplv-k3u1fbpfcp-zoom-1.image"
+  }
+}

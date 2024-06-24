@@ -1,7 +1,7 @@
 # JsDoc
 
 ## js的类型检查
-
+<!-- ts-vs-jsdoc -->
 - "编写时"
   - typescript
   - js Doc
@@ -13,7 +13,7 @@
 ## Outline
 
 ### 介绍
-
+<!-- demo.js -->
 #### 什么是jsDoc
 
       - jsDoc是一种用来给JavaScript代码添加注释的工具，通过使用一些特定的语法和标签，程序员可以在代码中添加说明文档，这些文档可以被jsDoc解析并生成API文档。这对于团队合作以及后期代码维护非常有用，因为它可以清楚描述函数的用途，参数类型，返回值等信息
@@ -28,10 +28,13 @@
          5. 方便进行单元测试编写：由于jsDoc注释中清晰地定义了函数的预期输入和输出，便于编写单元测试用例。
 
 ### jsDoc的安装和使用
+<!-- demo.js -->
 
 #### 安装方法
 
 ### jsDoc的基本语法和标签
+<!-- demo.js -->
+<!-- type.d.js -->
 
 #### 常见jsDoc标签及其使用方法
 
@@ -44,10 +47,6 @@
 - @returns
 - @module
 
-#### 使用.d.ts编写类型
-
-### jsDoc配置和使用
-
 #### demo
 
       - description    -  `demos.name`
@@ -58,6 +57,10 @@
          - Es module
       - with ts - `index.js+jsGroup+anotherJsGroup`
       - type checks. `index.js`
+
+#### 使用.d.ts编写类型
+<!-- type.d.ts -->
+<!-- index.js -->
 
 ### jsDoc在实际项目中的应用
 
@@ -77,9 +80,9 @@
 #### vscode插件
 
 - Paste JSON as JSDoc
+  <!-- paste-json-as-jsdoc.json -->
 - JSDoc Generator
-
-### jsDoc的高级应用
+  <!-- jsdoc-generator.js -->
 
 #### 自定义标签的创建和应用
 
