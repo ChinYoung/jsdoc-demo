@@ -1,4 +1,4 @@
-import { name, age, friends, identity, exe, Assistant, deprecatedFn } from "./demos";
+import { name, age, friends, identity, exe, Assistant, deprecatedFn } from "./demo";
 
 const assistant = new Assistant()
 assistant.say('hello world')
