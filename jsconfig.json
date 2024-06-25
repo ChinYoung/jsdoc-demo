@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "checkJs": true
+    "checkJs": false
   },
-
 }
